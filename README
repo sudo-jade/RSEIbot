@@ -1,0 +1,13 @@
+Bot for tracking reactions for RSEI
+Current features:
+- Make 24 hour poll
+Possible Updates:
+- Get reactions straight from poll embed without 24 hour wait
+- Use of env instead of `config.json`
+Usage:
+ After registering bot
+ Enter required information to config.json and settings.json
+ Config.json contains Client Id, Bot Token, and Guild ID.
+ Settings.json contains an ouptut channel and minutes to wait until recording
+ Run `node slash` before running `node .` for usage on server.
+ To use on discord, run the slash command in the channel you would like the poll in

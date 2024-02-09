@@ -1,0 +1,15 @@
+{
+  "name": "rseibot",
+  "version": "1.0.0",
+  "description": "RSEi Bot",
+  "main": "index.js",
+  "scripts": {
+    "slash": "node deploy-command.js"
+  },
+  "author": "Jade Wallack",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "discord.js": "^14.14.1"
+  }
+}
